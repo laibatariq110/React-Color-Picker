@@ -53,6 +53,6 @@ The project consists of the following main files:
    npm run deploy
    ```
 ## 🧩 How It Works
-- **useState**: Manages the state of the selected color.
-- **Dynamic Styling**: The div background is updated using the style prop with the current color.
-- **Color Input**: An HTML <input type="color"> allows users to pick a color.
+- `useState`: Manages the state of the selected color.
+- **Dynamic Styling**: The `div` background is updated using the `style` prop with the current color.
+- **Color Input**: An HTML `<input type="color">` allows users to pick a color.
