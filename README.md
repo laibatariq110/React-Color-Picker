@@ -3,7 +3,7 @@
 This is a simple **React-based Color Picker** app that allows users to select a color using an HTML color input. The selected color is displayed dynamically in a styled box with its corresponding hex value.
 
 ## 🌐 Live Demo
-![Color Picker Screenshot](my-react-app/src/assets/color-picker-screenshot.png)
+![Color Picker Screenshot](src/assets/color-picker-screenshot.png)
 [View the live project here!](https://laibatariq110.github.io/React-Color-Picker)
 
 ## 📂 Project Structure
