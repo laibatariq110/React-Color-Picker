@@ -1,13 +1,18 @@
+
 {
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://laibatariq110.github.io/React-Color-Picker",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
