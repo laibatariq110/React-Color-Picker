@@ -3,6 +3,7 @@
 This is a simple **React-based Color Picker** app that allows users to select a color using an HTML color input. The selected color is displayed dynamically in a styled box with its corresponding hex value.
 
 ## 🌐 Live Demo
+![Color Picker Screenshot](assets/color-picker-screenshot.png)
 [View the live project here!](https://laibatariq110.github.io/React-Color-Picker)
 
 ## 📂 Project Structure
@@ -30,14 +31,29 @@ The project consists of the following main files:
 1. Clone the repository:
    ```bash
    git clone https://github.com/laibatariq110/React-Color-Picker.git
+   ```
 2. Navigate to the project directory:
+   ```bash
    cd React-Color-Picker
-3. Install the dependencies:
+   ```
+4. Install the dependencies:
+   ```bash
    npm install
-4. Start the development server:
+   ```
+6. Start the development server:
+   ```bash
    npm run dev
-5. Build for production:
+   ```
+8. Build for production:
+   ```bash
    npm run build
-6. Deploy to GitHub Pages:
+   ```
+10. Deploy to GitHub Pages:
+    ```bash
    npm run deploy
    ```
+
+## 🧩 How It Works
+- **useState**: Manages the state of the selected color.
+- **Dynamic Styling**: The div background is updated using the style prop with the current color.
+- **Color Input**: An HTML <input type="color"> allows users to pick a color.
