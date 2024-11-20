@@ -36,23 +36,22 @@ The project consists of the following main files:
    ```bash
    cd React-Color-Picker
    ```
-4. Install the dependencies:
+3. Install the dependencies:
    ```bash
    npm install
    ```
-6. Start the development server:
+4. Start the development server:
    ```bash
    npm run dev
    ```
-8. Build for production:
+5. Build for production:
    ```bash
    npm run build
    ```
-10. Deploy to GitHub Pages:
+6. Deploy to GitHub Pages:
     ```bash
    npm run deploy
    ```
-
 ## 🧩 How It Works
 - **useState**: Manages the state of the selected color.
 - **Dynamic Styling**: The div background is updated using the style prop with the current color.
